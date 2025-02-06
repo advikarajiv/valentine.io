@@ -1,0 +1,67 @@
+body{
+    background-image: url("3810b93d-e776-4dae-8d56-dc0f260aa3a2.jpg");
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.bg{
+    height: 710px;
+    width: 100%;
+    border: solid 10px plum;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.butt{
+    margin: 5px;
+    padding: 5px;
+    height: max-content;
+    width:max-content ;
+    border: solid 3px plum;
+    color: pink;
+    background-color: hotpink;
+    font-size: 50px;
+    border-radius: 25%;
+
+}
+
+
+.bdy{
+    
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: pink;
+    border-color: white;
+    padding: 0%;
+    margin: 0;
+    font-size: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+.heart{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin: 0%;
+    padding: 0;
+
+}
